@@ -1,102 +1,103 @@
-# 🛍️ Sales Transaction Dashboard
 
-This repository contains the source files for a **Power BI dashboard** designed for detailed **Sales Transaction**. The dashboard offers a comprehensive view of sales performance, district-level metrics, store-level insights, and new store openings.
+# 👟 Transaction Sales Analysis
 
-It serves as a strategic tool for **district managers**, **store leaders**, and **executives** to monitor **key performance indicators (KPIs)** and identify trends across all operational levels — from the overall business to individual stores and managers.
+## 📌 Project Overview
 
----
+This repository presents a detailed Power BI dashboard for **Transaction Sales Analysis**, offering a comprehensive look into company performance across multiple dimensions—**region, sales channels, products, retailers, and time**.
 
-
-## 📊 Dashboard Pages
-
-The report is organized into multiple interactive pages, each offering focused analysis:
+The goal is to uncover actionable insights that can drive strategic decision-making and operational efficiency.
 
 ---
 
-### 1️⃣ Overview
+## 📈 Key Findings
 
-Provides a **high-level summary** of company-wide performance.
+### 🧾 Overall Performance Summary
 
-**Key Metrics and Insights:**
-- **Total Sales:** $42.67M  
-- **Year-over-Year Growth:** +3.95% (Last year: $41.05M)  
-- **Sales per Square Foot:** $21.84 (+1.25% from $21.57)  
-- **Sales by Month:** Monthly trends comparison (current vs previous year)  
-- **Sales by Store Type:** Pie chart breakdown  
-- **Sales by District:** Bar chart to compare regional performance  
+The analysis highlights Adidas's strong financial performance over the period:
 
----
-
-### 2️⃣ District Monthly Sales
-
-Detailed view of sales performance **by district and over time**.
-
-**Key Metrics and Insights:**
-- **Total Sales:** $42.67M  
-- **Sales per Square Foot:** $21.84  
-- **Sales by State:** Geographic distribution (map)  
-- **Sales by Month:** Time-based line chart  
-- **Sales by Store Type:** Category-wise performance (bar chart)  
-- **District Manager Table:** Sales breakdown by manager  
+- **Total Profit:** $332.13M  
+- **Total Sales:** $900M  
+- **Total Units Sold:** 2.48M  
+- **Average Operating Margin:** 42.30%  
+- **Total Transactions:** 9,648  
 
 ---
 
-### 3️⃣ Store Analysis
+### 🌍 Regional Performance
 
-In-depth evaluation of **individual store performance**.
+The **West region** consistently leads in both total sales and profit.
 
-**Key Metrics and Insights:**
-- **Total Sales & Sales/Sq.Ft.:** $42.67M & $21.84 respectively  
-- **Sales by Store Name:** Treemap showing top/bottom stores  
-- **Performance Table:** Current vs. last year sales with variance  
-- **Scatter Plot:** Correlation between sales and efficiency metrics  
+**Top Regions (by Sales & Profit):**
+1. West  
+2. Northeast  
+3. South  
 
----
-
-### 4️⃣ District Manager Analysis
-
-Focus on **district manager performance** and the stores they supervise.
-
-**Key Metrics and Insights:**
-- **Manager Sales Summary:** Dynamic view per selected manager  
-- **Manager’s Stores:** Treemap of stores under each manager  
-- **Monthly Trend:** Line chart tracking district-level changes  
-- **Store Type Breakdown:** Distribution by category  
+- The **Midwest** region underperforms relative to other regions.
 
 ---
 
-### 5️⃣ New Stores
+### 📆 Sales Trends Over Time
 
-Evaluates the **performance and distribution** of newly opened locations.
+Sales and profits demonstrate a clear **seasonal pattern**:
 
-**Key Metrics and Insights:**
-- **Total New Stores:** 10  
-- **Locations by City:** Map visualization  
-- **Openings by Month:** Timeline chart  
-- **New Store Type Distribution:** Treemap view  
-
----
-
-## 🧭 How to Use
-
-The dashboard includes interactive slicers on the right-hand panel. These allow users to explore the data by:
-
-- **Store Name**  
-- **Store Type**  
-- **District Manager**  
-- **Time Period** (e.g., Month, Year)
+- **Peak Season:** Summer and Fall  
+  - **Sales Peak:** September  
+  - **Profit Peak:** August  
+- **Off-Peak:** January and February see the lowest activity.
 
 ---
 
+### 🛒 Sales Channel Analysis
+
+**Online** sales dominate the revenue stream, followed by **in-store** and **outlet** channels.
+
+- **Highest Revenue Channel:** Online  
+- **Runner-up:** In-store  
+- **Notable Contributor:** Outlet  
+
+---
+
+### 🏪 Retailer & Product Performance
+
+Certain **retailers** and **product categories** play a major role in Adidas's success.
+
+**Top Retailers (by Sales):**
+1. West Gear  
+2. Foot Locker  
+3. Sports Direct  
+
+**Top-Selling Product Categories:**
+- Men's Streetwear  
+- Women's Apparel  
+
+---
+
+### 🗺️ Geographic Focus
+
+City-level analysis highlights high-profit urban markets:
+
+**Highest Profit Cities:**
+1. Charleston ($15.6M)  
+2. New York ($13.8M)  
+3. Miami ($12.1M)  
+
+---
+
+## ✅ Conclusion
+
+This analysis reveals a **robust and diversified sales strategy**, with particular strength in the **West region** and **online channels**. The seasonal nature of revenue suggests an opportunity to enhance off-peak marketing efforts. Additionally, urban hotspots like **Charleston**, **New York**, and **Miami** offer promising areas for growth and investment.
+
+---
 
 
 ## 📷 Screenshot 
 
-><img width="744" height="583" alt="image" src="https://github.com/user-attachments/assets/6675b73a-b6e7-4388-b920-c92fcba41819" />
+<img width="740" height="532" alt="image" src="https://github.com/user-attachments/assets/7b5a3b2d-7e6d-489e-ba49-3e27a8d3f0e5" />
+
 
 
 ## 🔗  Online Report
 
-The report can be accessed via: https://app.powerbi.com/view?r=eyJrIjoiN2M1NjFlNGQtNGIwOC00N2Y2LTlkZTItN2ZlZmQ3MjJlM2ZjIiwidCI6IjU4MTgxNmIyLWMwYmUtNGVhYS04MGUzLTI5ZTVmMjQ4NjQ5NCIsImMiOjh9
+The report can be accessed via:https://app.powerbi.com/view?r=eyJrIjoiZWY3ZDQ5ZjUtOGU5Ny00MjNkLTgxNWQtNDQ4YzFhYzg4MjBiIiwidCI6IjU4MTgxNmIyLWMwYmUtNGVhYS04MGUzLTI5ZTVmMjQ4NjQ5NCIsImMiOjh9
 
 

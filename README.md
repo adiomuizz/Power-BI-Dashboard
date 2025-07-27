@@ -1,35 +1,94 @@
-# Transaction Dashboard (Power BI)
+# 🛍️ Sales Transaction Dashboard
 
-This Power BI report visualizes and analyzes transaction data to help stakeholders track performance, identify trends, and monitor key metrics related to transactions over time.
+This repository contains the source files for a **Power BI dashboard** designed for detailed **Sales Transaction**. The dashboard offers a comprehensive view of sales performance, district-level metrics, store-level insights, and new store openings.
 
-## 📊 File Included
+It serves as a strategic tool for **district managers**, **store leaders**, and **executives** to monitor **key performance indicators (KPIs)** and identify trends across all operational levels — from the overall business to individual stores and managers.
 
-- `Transaction.pbix` — The Power BI Desktop file containing the full dashboard, data model, and visualizations.
+---
 
-## 🔍 Dashboard Features
 
-- **Total Transactions Overview**  
-  A snapshot of the total number of transactions, volume, and trends over selected periods.
+## 📊 Dashboard Pages
 
-- **Daily/Monthly Analysis**  
-  View how transaction patterns evolve over days and months.
+The report is organized into multiple interactive pages, each offering focused analysis:
 
-- **Top Performing Categories**  
-  Identify top transaction categories by count or volume.
+---
 
-- **Interactive Filters**  
-  Use slicers to filter by date, category, or other dimensions.
+### 1️⃣ Overview
 
-## 🧠 Use Cases
+Provides a **high-level summary** of company-wide performance.
 
-- Financial operations tracking
-- Performance analysis for retail platforms
+**Key Metrics and Insights:**
+- **Total Sales:** $42.67M  
+- **Year-over-Year Growth:** +3.95% (Last year: $41.05M)  
+- **Sales per Square Foot:** $21.84 (+1.25% from $21.57)  
+- **Sales by Month:** Monthly trends comparison (current vs previous year)  
+- **Sales by Store Type:** Pie chart breakdown  
+- **Sales by District:** Bar chart to compare regional performance  
 
-## 🛠️ How to Use
+---
 
-1. Download and open `Transaction.pbix` using [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
-2. Refresh the data (if connected to live sources).
-3. Explore the visuals and interact with filters to gain insights.
+### 2️⃣ District Monthly Sales
+
+Detailed view of sales performance **by district and over time**.
+
+**Key Metrics and Insights:**
+- **Total Sales:** $42.67M  
+- **Sales per Square Foot:** $21.84  
+- **Sales by State:** Geographic distribution (map)  
+- **Sales by Month:** Time-based line chart  
+- **Sales by Store Type:** Category-wise performance (bar chart)  
+- **District Manager Table:** Sales breakdown by manager  
+
+---
+
+### 3️⃣ Store Analysis
+
+In-depth evaluation of **individual store performance**.
+
+**Key Metrics and Insights:**
+- **Total Sales & Sales/Sq.Ft.:** $42.67M & $21.84 respectively  
+- **Sales by Store Name:** Treemap showing top/bottom stores  
+- **Performance Table:** Current vs. last year sales with variance  
+- **Scatter Plot:** Correlation between sales and efficiency metrics  
+
+---
+
+### 4️⃣ District Manager Analysis
+
+Focus on **district manager performance** and the stores they supervise.
+
+**Key Metrics and Insights:**
+- **Manager Sales Summary:** Dynamic view per selected manager  
+- **Manager’s Stores:** Treemap of stores under each manager  
+- **Monthly Trend:** Line chart tracking district-level changes  
+- **Store Type Breakdown:** Distribution by category  
+
+---
+
+### 5️⃣ New Stores
+
+Evaluates the **performance and distribution** of newly opened locations.
+
+**Key Metrics and Insights:**
+- **Total New Stores:** 10  
+- **Locations by City:** Map visualization  
+- **Openings by Month:** Timeline chart  
+- **New Store Type Distribution:** Treemap view  
+
+---
+
+## 🧭 How to Use
+
+The dashboard includes interactive slicers on the right-hand panel. These allow users to explore the data by:
+
+- **Store Name**  
+- **Store Type**  
+- **District Manager**  
+- **Time Period** (e.g., Month, Year)
+
+---
+
+
 
 ## 📷 Screenshot 
 

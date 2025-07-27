@@ -1,5 +1,5 @@
 
-# 👟 Transaction Sales Analysis
+#  Transaction Sales Analysis
 
 ## 📌 Project Overview
 

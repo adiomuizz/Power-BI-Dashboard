@@ -40,6 +40,4 @@ This Power BI report visualizes and analyzes transaction data to help stakeholde
 
 The report can be accessed via: https://app.powerbi.com/view?r=eyJrIjoiN2M1NjFlNGQtNGIwOC00N2Y2LTlkZTItN2ZlZmQ3MjJlM2ZjIiwidCI6IjU4MTgxNmIyLWMwYmUtNGVhYS04MGUzLTI5ZTVmMjQ4NjQ5NCIsImMiOjh9
 
-[View Report Online](<iframe title="Transcation" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiN2M1NjFlNGQtNGIwOC00N2Y2LTlkZTItN2ZlZmQ3MjJlM2ZjIiwidCI6IjU4MTgxNmIyLWMwYmUtNGVhYS04MGUzLTI5ZTVmMjQ4NjQ5NCIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>)
-
 
